@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2E1F31AA6AAE51EDE01C4E009CEB45811876917B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "568164189A39BF4E03CD97A4FC2027E8917D8B25" : 9223372036854775807,
+    "2E1F31AA6AAE51EDE01C4E009CEB45811876917B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "61B11108-000D-4254-9C41-635D58D8C827",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "568164189A39BF4E03CD97A4FC2027E8917D8B25" : "closerframework\/closerframework\/",
+    "2E1F31AA6AAE51EDE01C4E009CEB45811876917B" : "closerframework\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "closerframework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "closerframework.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jihaihui\/Closerframeworks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E1F31AA6AAE51EDE01C4E009CEB45811876917B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jihaihui\/closerframework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "568164189A39BF4E03CD97A4FC2027E8917D8B25"
+    }
+  ]
+}
