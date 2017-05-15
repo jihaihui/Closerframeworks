@@ -10,6 +10,8 @@
 		97044BA21EC940FB00B5753C /* closerframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97044B981EC940FA00B5753C /* closerframework.framework */; };
 		97044BA71EC940FB00B5753C /* closerframeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97044BA61EC940FB00B5753C /* closerframeworkTests.m */; };
 		97044BA91EC940FB00B5753C /* closerframework.h in Headers */ = {isa = PBXBuildFile; fileRef = 97044B9B1EC940FA00B5753C /* closerframework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97044BB41EC941BC00B5753C /* PublicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 97044BB21EC941BC00B5753C /* PublicObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97044BB51EC941BC00B5753C /* PublicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 97044BB31EC941BC00B5753C /* PublicObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		97044BA11EC940FB00B5753C /* closerframeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = closerframeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97044BA61EC940FB00B5753C /* closerframeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = closerframeworkTests.m; sourceTree = "<group>"; };
 		97044BA81EC940FB00B5753C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97044BB21EC941BC00B5753C /* PublicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicObject.h; sourceTree = "<group>"; };
+		97044BB31EC941BC00B5753C /* PublicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				97044B9B1EC940FA00B5753C /* closerframework.h */,
 				97044B9C1EC940FB00B5753C /* Info.plist */,
+				97044BB21EC941BC00B5753C /* PublicObject.h */,
+				97044BB31EC941BC00B5753C /* PublicObject.m */,
 			);
 			path = closerframework;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97044BB41EC941BC00B5753C /* PublicObject.h in Headers */,
 				97044BA91EC940FB00B5753C /* closerframework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97044BB51EC941BC00B5753C /* PublicObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7LHNC8MXW7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -337,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7LHNC8MXW7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -392,6 +402,7 @@
 				97044BAE1EC940FB00B5753C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97044BAF1EC940FB00B5753C /* Build configuration list for PBXNativeTarget "closerframeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +411,7 @@
 				97044BB11EC940FB00B5753C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

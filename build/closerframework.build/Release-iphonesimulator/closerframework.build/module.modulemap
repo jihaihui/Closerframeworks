@@ -1,0 +1,6 @@
+framework module closerframework {
+  umbrella header "closerframework.h"
+
+  export *
+  module * { export * }
+}

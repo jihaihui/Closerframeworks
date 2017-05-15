@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/jihh/Documents/workspace/closerframework/build/Release-iphonesimulator/closerframework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PublicObject.h",
+          'external-contents': "/Users/jihh/Documents/workspace/closerframework/closerframework/PublicObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "closerframework-Swift.h",
+          'external-contents': "/Users/jihh/Documents/workspace/closerframework/build/Release-iphonesimulator/closerframework.framework/Headers/closerframework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "closerframework.h",
+          'external-contents': "/Users/jihh/Documents/workspace/closerframework/closerframework/closerframework.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jihh/Documents/workspace/closerframework/build/Release-iphonesimulator/closerframework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/jihh/Documents/workspace/closerframework/build/closerframework.build/Release-iphonesimulator/closerframework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
