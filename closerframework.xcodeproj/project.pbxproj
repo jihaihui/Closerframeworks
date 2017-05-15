@@ -12,6 +12,8 @@
 		97044BA91EC940FB00B5753C /* closerframework.h in Headers */ = {isa = PBXBuildFile; fileRef = 97044B9B1EC940FA00B5753C /* closerframework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97044BB41EC941BC00B5753C /* PublicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 97044BB21EC941BC00B5753C /* PublicObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97044BB51EC941BC00B5753C /* PublicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 97044BB31EC941BC00B5753C /* PublicObject.m */; };
+		97B0A55A1EC99CED00B6F042 /* Closer_Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B0A5581EC99CED00B6F042 /* Closer_Log.h */; };
+		97B0A55B1EC99CED00B6F042 /* Closer_Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B0A5591EC99CED00B6F042 /* Closer_Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		97044BA81EC940FB00B5753C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97044BB21EC941BC00B5753C /* PublicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicObject.h; sourceTree = "<group>"; };
 		97044BB31EC941BC00B5753C /* PublicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicObject.m; sourceTree = "<group>"; };
+		97B0A5581EC99CED00B6F042 /* Closer_Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Closer_Log.h; sourceTree = "<group>"; };
+		97B0A5591EC99CED00B6F042 /* Closer_Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Closer_Log.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		97044B9A1EC940FA00B5753C /* closerframework */ = {
 			isa = PBXGroup;
 			children = (
+				97B0A5561EC99CB300B6F042 /* closerSourFrameFile */,
 				97044B9B1EC940FA00B5753C /* closerframework.h */,
 				97044B9C1EC940FB00B5753C /* Info.plist */,
 				97044BB21EC941BC00B5753C /* PublicObject.h */,
@@ -92,6 +97,15 @@
 			path = closerframeworkTests;
 			sourceTree = "<group>";
 		};
+		97B0A5561EC99CB300B6F042 /* closerSourFrameFile */ = {
+			isa = PBXGroup;
+			children = (
+				97B0A5581EC99CED00B6F042 /* Closer_Log.h */,
+				97B0A5591EC99CED00B6F042 /* Closer_Log.m */,
+			);
+			path = closerSourFrameFile;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -101,6 +115,7 @@
 			files = (
 				97044BB41EC941BC00B5753C /* PublicObject.h in Headers */,
 				97044BA91EC940FB00B5753C /* closerframework.h in Headers */,
+				97B0A55A1EC99CED00B6F042 /* Closer_Log.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B0A55B1EC99CED00B6F042 /* Closer_Log.m in Sources */,
 				97044BB51EC941BC00B5753C /* PublicObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
