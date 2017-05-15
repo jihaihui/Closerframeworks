@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "closerFirstFramework"
-  s.version      = “1.1”
-  s.summary      = “this is closer's first framework.”
+  s.version      = "0.0.1"
+  s.summary      = "A short description of closerFirstFramework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "closerSourFrameFile/*"
-  s.exclude_files = "closerSourFrameFile/Exclude"
+  s.exclude_files = "closerSourFrameFile/*"
 
   # s.public_header_files = "Classes/**/*.h"
 
